@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E356865D1D62CBF70014B295 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E356865C1D62CBF70014B295 /* pokemon.csv */; };
 		E3C0999F1D617F7D00DC8B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C0999E1D617F7D00DC8B15 /* main.m */; };
 		E3C099A21D617F7D00DC8B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C099A11D617F7D00DC8B15 /* AppDelegate.m */; };
 		E3C099A51D617F7D00DC8B15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C099A41D617F7D00DC8B15 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E356865C1D62CBF70014B295 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		E3C0999A1D617F7D00DC8B15 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C0999E1D617F7D00DC8B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3C099A01D617F7D00DC8B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		E3C0999C1D617F7D00DC8B15 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				E356865C1D62CBF70014B295 /* pokemon.csv */,
 				E3C099A01D617F7D00DC8B15 /* AppDelegate.h */,
 				E3C099A11D617F7D00DC8B15 /* AppDelegate.m */,
 				E3C099A31D617F7D00DC8B15 /* ViewController.h */,
@@ -139,6 +142,7 @@
 			files = (
 				E3C099AD1D617F7D00DC8B15 /* LaunchScreen.storyboard in Resources */,
 				E3C099AA1D617F7D00DC8B15 /* Assets.xcassets in Resources */,
+				E356865D1D62CBF70014B295 /* pokemon.csv in Resources */,
 				E3C099A81D617F7D00DC8B15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				E3C099B31D617F7D00DC8B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
